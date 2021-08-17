@@ -1,0 +1,206 @@
+
+
+/*---------------------------------header background---------------------------------------------*/
+
+
+.type-style {
+  color: ghostwhite;
+  margin-top: 20px;
+  font-size: 1cm;
+  padding-top: 40px;
+  position: absolute;
+  top: 37%;
+  bottom: 50%;
+  left:24%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    bottom: 60%;
+    left:24%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5cm;
+    color: rgba(51, 17, 45, 0);
+    text-shadow: 2px 2px 4px royalblue;
+}
+
+.p-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 0.7cm;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgb(175, 186, 221);
+}
+
+.body-style {
+  background-color: black;
+}
+
+/*---------------------------------About page---------------------------------------------*/
+.container-about {
+  text-align: center;
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 47%;
+  bottom: 50%;
+  left:24%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1cm;
+  color: darkslategray;
+  text-shadow: 2px 2px 4px gray;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-text {
+    position: absolute;
+    top: 43%;
+    bottom: 57%;
+    left:20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+  }
+  .type-style {
+    color: ghostwhite;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left:24%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.4cm;
+  }
+  .header-text {
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left:24%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+    color: rgba(168, 37, 144, 0);
+    text-shadow: 2px 2px 4px royalblue;
+  	}
+  .p-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.4cm;
+    color: ghostwhite;
+    text-shadow: 1px 1px 2px rgb(175, 186, 221);
+  }
+    
+}
+
+.container-facts {
+  background-color: azure;
+}
+
+.row-style {
+  padding-top: 30px;
+}
+
+.break-style {
+  word-break: normal;
+  border: 2px;
+  border-left: skyblue;
+  border-radius: 2vw;
+  border-left-style: ridge;
+  border-right: skyblue;
+  border-right-style: ridge;
+}
+/*---------------------------------Project page---------------------------------------------*/
+.image-text-project{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left:34%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.2cm;
+  color: darkslategray;
+  text-shadow: 2px 2px 4px gray;
+}
+
+@media only screen and (max-width: 700px) {
+  .image-text-project {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left:34%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.5cm;
+  }
+}
+
+
+.header-project1 {
+  background: url("C:\Users\mohan\Desktop\DCT\Website\blog-website-app\src\images\project.jpg") no-repeat;
+  margin: 20px 20px 20px 20px;
+  background-size: cover;
+  background-position: center;
+  width: 95vw;
+  height: 90vh;
+  text-align: center;
+  color:rgb(56, 18, 18);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3cm;
+}
+
+.header-project2 {
+  background: url("C:\Users\mohan\Desktop\DCT\Website\blog-website-app\src\images\todo.jpg") no-repeat;
+  margin: 20px 20px 20px 20px;
+  background-size: cover;
+  background-position: center;
+  width: 95vw;
+  height: 90vh;
+  text-align: center;
+  color: rgba(182, 42, 42, 0.637);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3cm;
+}
+
+.header-project3 {
+  background: url("C:\Users\mohan\Desktop\DCT\Website\blog-website-app\src\images\blog.png") no-repeat;
+  margin: 20px 20px 20px 20px;
+  background-size: cover;
+  background-position: center;
+  width: 95vw;
+  height: 90vh;
+  text-align: center;
+  color:rgb(171, 212, 219);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3cm;
+}
+
+
+.resume-style {
+  background-color: rgba(229, 226, 226, 0.89);
+  text-align: center;
+}
+
+.p-text1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 0.6cm;
+  color: black;
+  text-shadow: 1px 1px 2px rgb(92, 58, 58);
+}
